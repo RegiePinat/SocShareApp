@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB29A6E117E6A97900A30CF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB29A6E017E6A97900A30CF8 /* UIKit.framework */; };
+		DB29A6E317E6A97900A30CF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB29A6E217E6A97900A30CF8 /* Foundation.framework */; };
+		DB29A6E517E6A97900A30CF8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB29A6E417E6A97900A30CF8 /* CoreGraphics.framework */; };
+		DB29A6EB17E6A97900A30CF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB29A6E917E6A97900A30CF8 /* InfoPlist.strings */; };
+		DB29A6ED17E6A97900A30CF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB29A6EC17E6A97900A30CF8 /* main.m */; };
+		DB29A6F117E6A97900A30CF8 /* SocShareAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB29A6F017E6A97900A30CF8 /* SocShareAppAppDelegate.m */; };
+		DB29A6F317E6A97900A30CF8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DB29A6F217E6A97900A30CF8 /* Default.png */; };
+		DB29A6F517E6A97900A30CF8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB29A6F417E6A97900A30CF8 /* Default@2x.png */; };
+		DB29A6F717E6A97900A30CF8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB29A6F617E6A97900A30CF8 /* Default-568h@2x.png */; };
+		DB29A6FA17E6A97900A30CF8 /* SocShareAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB29A6F917E6A97900A30CF8 /* SocShareAppViewController.m */; };
+		DB29A6FD17E6A97900A30CF8 /* SocShareAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB29A6FB17E6A97900A30CF8 /* SocShareAppViewController.xib */; };
+		DB29A70417E6BAB000A30CF8 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB29A70317E6BAB000A30CF8 /* FacebookSDK.framework */; };
+		DB29A71017E6BE7000A30CF8 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DB29A70F17E6BE7000A30CF8 /* libsqlite3.dylib */; settings = {ATTRIBUTES = (Weak, ); }; };
+		DB29A71217E6BE7B00A30CF8 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB29A71117E6BE7B00A30CF8 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		DB29A71417E6BE8800A30CF8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB29A71317E6BE8800A30CF8 /* Security.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		DB29A71617E6BE9A00A30CF8 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB29A71517E6BE9A00A30CF8 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		DB29A71817E6BEA200A30CF8 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB29A71717E6BEA200A30CF8 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB29A6DD17E6A97900A30CF8 /* SocShareApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocShareApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB29A6E017E6A97900A30CF8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB29A6E217E6A97900A30CF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB29A6E417E6A97900A30CF8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB29A6E817E6A97900A30CF8 /* SocShareApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SocShareApp-Info.plist"; sourceTree = "<group>"; };
+		DB29A6EA17E6A97900A30CF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB29A6EC17E6A97900A30CF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB29A6EE17E6A97900A30CF8 /* SocShareApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SocShareApp-Prefix.pch"; sourceTree = "<group>"; };
+		DB29A6EF17E6A97900A30CF8 /* SocShareAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocShareAppAppDelegate.h; sourceTree = "<group>"; };
+		DB29A6F017E6A97900A30CF8 /* SocShareAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocShareAppAppDelegate.m; sourceTree = "<group>"; };
+		DB29A6F217E6A97900A30CF8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DB29A6F417E6A97900A30CF8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DB29A6F617E6A97900A30CF8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DB29A6F817E6A97900A30CF8 /* SocShareAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocShareAppViewController.h; sourceTree = "<group>"; };
+		DB29A6F917E6A97900A30CF8 /* SocShareAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocShareAppViewController.m; sourceTree = "<group>"; };
+		DB29A6FC17E6A97900A30CF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SocShareAppViewController.xib; sourceTree = "<group>"; };
+		DB29A70317E6BAB000A30CF8 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		DB29A70F17E6BE7000A30CF8 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		DB29A71117E6BE7B00A30CF8 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		DB29A71317E6BE8800A30CF8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DB29A71517E6BE9A00A30CF8 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		DB29A71717E6BEA200A30CF8 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB29A6DA17E6A97900A30CF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB29A71817E6BEA200A30CF8 /* Social.framework in Frameworks */,
+				DB29A71617E6BE9A00A30CF8 /* AdSupport.framework in Frameworks */,
+				DB29A71417E6BE8800A30CF8 /* Security.framework in Frameworks */,
+				DB29A71217E6BE7B00A30CF8 /* Accounts.framework in Frameworks */,
+				DB29A71017E6BE7000A30CF8 /* libsqlite3.dylib in Frameworks */,
+				DB29A6E117E6A97900A30CF8 /* UIKit.framework in Frameworks */,
+				DB29A6E317E6A97900A30CF8 /* Foundation.framework in Frameworks */,
+				DB29A6E517E6A97900A30CF8 /* CoreGraphics.framework in Frameworks */,
+				DB29A70417E6BAB000A30CF8 /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB29A6D417E6A97900A30CF8 = {
+			isa = PBXGroup;
+			children = (
+				DB29A71717E6BEA200A30CF8 /* Social.framework */,
+				DB29A71517E6BE9A00A30CF8 /* AdSupport.framework */,
+				DB29A71317E6BE8800A30CF8 /* Security.framework */,
+				DB29A71117E6BE7B00A30CF8 /* Accounts.framework */,
+				DB29A70F17E6BE7000A30CF8 /* libsqlite3.dylib */,
+				DB29A6E617E6A97900A30CF8 /* SocShareApp */,
+				DB29A6DF17E6A97900A30CF8 /* Frameworks */,
+				DB29A6DE17E6A97900A30CF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB29A6DE17E6A97900A30CF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB29A6DD17E6A97900A30CF8 /* SocShareApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB29A6DF17E6A97900A30CF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB29A70317E6BAB000A30CF8 /* FacebookSDK.framework */,
+				DB29A6E017E6A97900A30CF8 /* UIKit.framework */,
+				DB29A6E217E6A97900A30CF8 /* Foundation.framework */,
+				DB29A6E417E6A97900A30CF8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB29A6E617E6A97900A30CF8 /* SocShareApp */ = {
+			isa = PBXGroup;
+			children = (
+				DB29A6EF17E6A97900A30CF8 /* SocShareAppAppDelegate.h */,
+				DB29A6F017E6A97900A30CF8 /* SocShareAppAppDelegate.m */,
+				DB29A6F817E6A97900A30CF8 /* SocShareAppViewController.h */,
+				DB29A6F917E6A97900A30CF8 /* SocShareAppViewController.m */,
+				DB29A6FB17E6A97900A30CF8 /* SocShareAppViewController.xib */,
+				DB29A6E717E6A97900A30CF8 /* Supporting Files */,
+			);
+			path = SocShareApp;
+			sourceTree = "<group>";
+		};
+		DB29A6E717E6A97900A30CF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB29A6E817E6A97900A30CF8 /* SocShareApp-Info.plist */,
+				DB29A6E917E6A97900A30CF8 /* InfoPlist.strings */,
+				DB29A6EC17E6A97900A30CF8 /* main.m */,
+				DB29A6EE17E6A97900A30CF8 /* SocShareApp-Prefix.pch */,
+				DB29A6F217E6A97900A30CF8 /* Default.png */,
+				DB29A6F417E6A97900A30CF8 /* Default@2x.png */,
+				DB29A6F617E6A97900A30CF8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB29A6DC17E6A97900A30CF8 /* SocShareApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB29A70017E6A97900A30CF8 /* Build configuration list for PBXNativeTarget "SocShareApp" */;
+			buildPhases = (
+				DB29A6D917E6A97900A30CF8 /* Sources */,
+				DB29A6DA17E6A97900A30CF8 /* Frameworks */,
+				DB29A6DB17E6A97900A30CF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocShareApp;
+			productName = SocShareApp;
+			productReference = DB29A6DD17E6A97900A30CF8 /* SocShareApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB29A6D517E6A97900A30CF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SocShareApp;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Regie G. Pinat";
+			};
+			buildConfigurationList = DB29A6D817E6A97900A30CF8 /* Build configuration list for PBXProject "SocShareApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB29A6D417E6A97900A30CF8;
+			productRefGroup = DB29A6DE17E6A97900A30CF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB29A6DC17E6A97900A30CF8 /* SocShareApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB29A6DB17E6A97900A30CF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB29A6EB17E6A97900A30CF8 /* InfoPlist.strings in Resources */,
+				DB29A6F317E6A97900A30CF8 /* Default.png in Resources */,
+				DB29A6F517E6A97900A30CF8 /* Default@2x.png in Resources */,
+				DB29A6F717E6A97900A30CF8 /* Default-568h@2x.png in Resources */,
+				DB29A6FD17E6A97900A30CF8 /* SocShareAppViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB29A6D917E6A97900A30CF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB29A6ED17E6A97900A30CF8 /* main.m in Sources */,
+				DB29A6F117E6A97900A30CF8 /* SocShareAppAppDelegate.m in Sources */,
+				DB29A6FA17E6A97900A30CF8 /* SocShareAppViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB29A6E917E6A97900A30CF8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB29A6EA17E6A97900A30CF8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB29A6FB17E6A97900A30CF8 /* SocShareAppViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB29A6FC17E6A97900A30CF8 /* en */,
+			);
+			name = SocShareAppViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB29A6FE17E6A97900A30CF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB29A6FF17E6A97900A30CF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB29A70117E6A97900A30CF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Documents/FacebookSDK\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocShareApp/SocShareApp-Prefix.pch";
+				INFOPLIST_FILE = "SocShareApp/SocShareApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB29A70217E6A97900A30CF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../Documents/FacebookSDK\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SocShareApp/SocShareApp-Prefix.pch";
+				INFOPLIST_FILE = "SocShareApp/SocShareApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB29A6D817E6A97900A30CF8 /* Build configuration list for PBXProject "SocShareApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB29A6FE17E6A97900A30CF8 /* Debug */,
+				DB29A6FF17E6A97900A30CF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB29A70017E6A97900A30CF8 /* Build configuration list for PBXNativeTarget "SocShareApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB29A70117E6A97900A30CF8 /* Debug */,
+				DB29A70217E6A97900A30CF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB29A6D517E6A97900A30CF8 /* Project object */;
+}
